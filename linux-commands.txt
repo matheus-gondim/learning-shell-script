@@ -1,0 +1,79 @@
+pwd => para descobrir o diretório atual.
+ls => para listar arquivos e diretórios, vimos as opções -l e -la, que listam além dos arquivos e diretórios ocultos, informações extras sobre cada um deles.
+echo => para imprimir mensagens e o operador > para modificar o destino da mensagem.
+echo [message] >> [file-name] => escreve uma nova linha dentro do arquivo com a mensagem passada
+clear => para limparmos o terminal.
+man => para consultar o manual sobre determinado comando.
+whoami => Este utilitário fornece a identificação efetiva do usuário.
+cat [file-name] => mostra o conteudo do arquivo 
+mkdir => cria um diretório
+rmdir => remove um diretório vazio
+rm -rf => remove um diretório com arquivo
+rm => remove um diretório
+cp => copia um arquivo
+cp -r => copia um diretório
+mv => move e renomeia um arquivo
+zip => compacta arquivos
+zip -r => compacta um diretório com tudo que tem dentro (se usar o -q diminue as informaçoes de log)
+unzip => descompacta um zip (se usar o -q diminue as informaçoes de log)
+unzip -l => lista os arquivos dentro de um zip
+tar => serve para empacotar vários diretórios e arquivos em um único arquivo, facilitando a transferência
+tar -czf => empacota e compacta 
+tar -xzf => descompactar o arquio
+touch => altera a data de ultima modificaçao do arquivo
+date => printa no terminal a data atual ("+%d/%m/%y"=> formata pro formato BR)
+less => nos permite abrir e navegar pelo texto do arquivo no Terminal utilizando as setas para cima e para baixo do teclado
+ps => mostra quais processos estão sendo executados no terminal atual naquele instante
+ps -e => mostra todos os processos em execução em todo o sistema
+kill [PID] => encerra o processo
+kill -9 [PID] => força a finalizaçao do processo
+killall => permite matar todos os processos de um mesmo programa
+grep => filtra dados de uma entrada
+top => mostra a situação dos processos, do processador e da memória
+jobs => mostra os processos que estão sendo executados dentro do bash;
+fg e bg => jogam os processos para foreground e background, respectivamente;
+[programa] & => abre o [programa] diretamente em background;
+pstree => mostra todos os processos em um gráfico de árvore.
+sh => realiza a execução direta do programa
+chmod => Este comando altera as permissões de arquivos [leitura (r), escrita (w) e execução (x)], sendo que poder ser alterado pra grupos(g), usuarios(u) e outros(o)
+chmod a+rx => deixa um shell script executável
+locate => é a maneira mais fácil de procurar por um arquivo
+which => é usado para identificar a localização de um determinado executável
+su [user name] => serve para logar em outro usuário
+passwd => muda a senha do usuário
+adduser => adiciona um novo usuário
+env => mostra as variáveis de ambiente
+wc => pode ser utilizado para contar o número de palavras, caracteres e linhas que um arquivo possui. A opção -c para caracteres, -l para linhas e -w para palavras.
+bash => executa um script .sh
+awak => permite a manipulação de textos a partir de uma sequência de padrões. [ -f : especifica o nome do arquivo com os comandos a serem executados. -F : define quem é o separador de campos (o padrão é o espaço).]
+head => volta as 10 primeiras linhas. usando o -n pode-se passar a quantidade de linhas
+
+Portanto, existem basicamente três passos para instalar um programa a partir de seu código fonte:
+	1) ./configure para verificar as dependências e configurações da máquina.
+	2) make para gerar o programa, ou seja, compilar. Lembrando que, neste passo, pode haver outras dependências necessárias para a tarefa e por isso talvez seja preciso realizar instalações de outras bibliotecas.
+	3) sudo make install para que o programa seja instalado em nossa máquina. Lembrando que o sudo é necessário por causa de questões de permissão.
+
+#!/bin/sh OR #!/bin/bash => demonstra qual vai ser o interpretador do script
+
+
+COMANDOS DE VIM
+i => insere no caracter atual
+a => adiciona no proximo caracter
+x => remove o caracter atual
+dd => remove a linha
+q! => sai do arquivo sem sair
+shit+a => adiciona no final da linha
+shit+g => vai para ultima linha do arquivo
+[numero da linha] shit+g => leva o cursor pra linha informada
+$ => vai para o final da linha atual usamos
+/[palavra] => busca a primeira ocorrencia da palavra (n => vai para proxima ocorrencia shit+n => vai para a ocorrencia anterior)
+[numero de linhas]yy => copia uma linha
+u => volta uma açao
+p => cola a linha
+
+
+ARTIGOS PARA LER
+https://www.vivaolinux.com.br/dica/Customizando-o-BASH
+https://bash.cyberciti.biz/guide/Service_command
+https://www.google.com/search?q=ssh&oq=ssh&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8
+

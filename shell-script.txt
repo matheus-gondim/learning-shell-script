@@ -1,0 +1,11 @@
+variáveis coringas
+    $0	Exibe o nome do script
+    $?	Exibe o estado do ultimo comando executado, 0 ou 1
+    $$	Exibe o PID do script
+    $_	Guarda o valor do ultimo parâmetro do ultimo comando executado
+    $*	Exibe todos os parâmetros informados
+    $#	Exibe o numero total de parâmetros passados
+    $@	Idem ao $*, acrescentando proteção
+    $!	Exibe o PID do processo em background (job)
+    $1	Exibe o primeiro parâmetro informado
+    $8	Exibe o oitavo parâmetro informado
