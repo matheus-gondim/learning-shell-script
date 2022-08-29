@@ -47,6 +47,7 @@ wc => pode ser utilizado para contar o número de palavras, caracteres e linhas 
 bash => executa um script .sh
 awak => permite a manipulação de textos a partir de uma sequência de padrões. [ -f : especifica o nome do arquivo com os comandos a serem executados. -F : define quem é o separador de campos (o padrão é o espaço).]
 head => volta as 10 primeiras linhas. usando o -n pode-se passar a quantidade de linhas
+du -sh [DIR] => retorna o espaço que aquele diretório gasta na memória em um formato legível para humanos
 
 Portanto, existem basicamente três passos para instalar um programa a partir de seu código fonte:
 	1) ./configure para verificar as dependências e configurações da máquina.
