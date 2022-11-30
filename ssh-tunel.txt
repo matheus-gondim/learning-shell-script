@@ -1,0 +1,2 @@
+ssh -i ~/.ssh/<key> -L 0.0.0.0:33333:10.0.1.99:22 root@<host>
+ssh -i ~/.ssh/<key> root@localhost -p 33333
